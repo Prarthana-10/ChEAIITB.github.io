@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name= "viewport" content="width=device-width, user-scalable=1;">
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule="" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>ChEA-IITB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="cheaorange.png">
+    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+      <style>
+        
+        @font-face {
+            font-family: tesla;
+            src: url('TESLA.ttf');
+        }
+        .content .frontpara1{
+            font-family: tesla;
+        }
+    </style>
+</head>
+<body>
+     <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><a href="index.html"><img src="cheaorange.png"  height="73" width="101"/></a></h2>
+            </div>
+            <header>
+              <div class="menu">
+                <ul class="nav-menu" >
+                    <li class="nav-item" id="home"><a href="index.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item" id="events"><a href="events.html" class="nav-link">EVENTS</a></li>
+                    <li class="nav-item" id="blogs"><a href="blogs1.html"class="nav-link">BLOGS</a></li>
+                    <li class="nav-item" id="publications"><a href="publications23.html" class="nav-link">PUBLICATIONS</a></li>
+                    <li class="nav-item" id="links"><a href="links.html" class="nav-link">LINKS</a></li>
+                    <li class="nav-item" id="contacts"><a href="contacts1.html" class="nav-link">CONTACT</a></li>
+                    <li class="nav-item" id="facad"><a href="facad23.html" class="nav-link">FACAD</a></li>
+                </ul>
+            </div> 
+        </header>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            <script src="index.js"></script>
+    </div>
+        <div class="frontpage">
+            <div class="content">
+                <h1><span class="frontpara1">CHEMICAL</span>Engineering<br>Association, IIT Bombay</h1><br>
+                <p class="par"><b id="amrit">Transforming atoms into innovations:</b> <b>where science converges with ingenuity!</b>
+                <br><b>Chemical Engineering:</b> a pivotal Catalyst of Innovation, unleashes  the profound power of scientific knowledge, forging unique path that <br>Shapes a 
+                Sustainable and Prosperous World.
+                The <b><span class="frontpara2">Chemical </span>Engineering Association <span class="frontpara2">(ChEA)</span></b>, established in<span class="frontpara2"> 1965</span>, looks back with pride
+                 with an enviable record of a number of educational, informative, and informal events. 
+                 The records have become even more enviable when considered in the context of the fact that such events are organized
+                  almost entirely by students with remarkably keen participation and generous support from professors and alumni.
+                </p>
+
+                <!-- <button class="cn"><a href="#">JOIN US</a></button> -->
+            </div>
+            <div class="bounce-top">
+                <img src=" loading.png" width="400px" height="560px">
+            </div>
+        </div>
+    </div>
+    <div class="lowerpart">
+        <div class="embeddedvdo">
+            <iframe width="840" height="455" src="https://www.youtube.com/embed/JOLQSrkcSAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="lowerh3">
+                
+                ChEA is an association of the Alumni, Faculty, Students, and Staff of the Chemical Engineering Department, dedicated to the noble cause of disseminating knowledge and fostering awareness in the field of chemical engineering.<br>One of its paramount objectives is to foster and fortify the spirit of brotherhood and cooperation among the esteemed members of the association, weaving a tapestry of unity that strengthens the bonds within this academic community.<br>
+                Association aims to nurture and cultivate leadership qualities, ignite the spark of initiative, and inculcate a profound sense of responsibility among its members.<br>
+                Simulate collaborative endeavors among industry, universities, government bodies, professional societies, and other chemical associations affiliated in India and abroad.
+        </div>
+    </div>
+    <div class="whatwedo">
+        <h2>Here's <span>What We Do !!</span></h2>
+        <h2 id="abtchea">About <span>ChEA !!</span></h2>
+    </div>
+    <section class="datadashboard">
+        <div class="container-grid">
+            <div>
+                <h2 class="counter-numbers" id="rank1"> 1</h2>
+                <p>National Rank</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="45">0+</h2>
+                <p>Faculties</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="750">0+</h2>
+                <p>Students</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="20">0+</h2>
+                <p>Events</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        const counterNum = document.querySelectorAll(".counter-numbers");
+        const speed = 15;
+        counterNum.forEach((currentElement) => {
+            const updateNumber = () =>{
+                const targetNumber = parseInt(currentElement.dataset.number);
+                const initialNumber = parseInt(currentElement.innerText);
+                const incrementNumber = Math.trunc(targetNumber/speed);
+                if(initialNumber<targetNumber){
+                    currentElement.innerText= `${initialNumber+incrementNumber}+`;
+                    setTimeout(updateNumber,100);
+                }
+            };
+            updateNumber();
+        });
+
+    </script>
+
+    <div class="form">
+        <div class="icons">
+            <a href="https://www.facebook.com/cheaiitb" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://instagram.com/chea_iitb?utm_medium=copy_link" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/company/chea-iit-bombay/" target="_blank"><ion-icon name="logo-linkedIn"></ion-icon></a>
+            <a href="https://www.youtube.com/@chemicalengineeringassocia2744/about" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="https://twitter.com/CheEnggIITB?t=YFUGMVconswtD1NIPyEegQ&s=09" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        <h2>Website maintained by  <img src="cheaorange.png" height="98" width="132"/></h2>
+    </div>
+</body>
+</html>
