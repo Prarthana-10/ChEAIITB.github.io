@@ -536,10 +536,12 @@ events-box .ib{
         transform: translateY(91%);
     }
     .events-layer h4 {
+          font-family:gabriola;
         font-size: 5.1rem;
         margin-bottom: 50px;
     }
     .events-layer p {
+          font-family:gabriola;
     font-size: 63px;
     }
     .cn {
@@ -554,15 +556,15 @@ events-box .ib{
     font-size: 48px;
     }
     .form {
-    top: -80px;
-    left: 435px;
+    top: -30px;
+    left: 417px;
     padding:9px;
     }
 
     .icons ion-icon {
-    width: 70px;
-    font-size: 50px;
-    margin-left: 10px;
+        width: 84px;
+    font-size: 57px;
+    margin-left: -22px;
     margin-top: 25px;
     }
     .form h2 {
