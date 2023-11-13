@@ -353,9 +353,9 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
-    font-size: 1.5rem ;
+        font-size: 1.8rem;
     color: #ff7200;
-    margin-bottom: 0px;
+    margin-top: -10px;
      font-family:gabriola;
     /* font-style: normal; */
 }
@@ -533,6 +533,13 @@ ul li a:hover{
     .event-container{
     margin-left: -152px;
     }
+    .events-layer h4 {
+    font-size: 1.8rem;
+    color: #ff7200;
+    margin-top: -10px;}
+    .events-layer p {
+    font-family: gabriola;
+    font-size: 16px;}
     .event-container .events-box {
     width: 263px;
     }
