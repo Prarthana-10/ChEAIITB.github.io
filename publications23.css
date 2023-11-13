@@ -578,7 +578,7 @@ ul li a:hover{
      .cn_publications {
     width: 168px;
     height: 68px;
-    margin-left: 22px;
+    margin-left: 0px;
     font-size: 39px;
 }
     .year .cn_publications{
