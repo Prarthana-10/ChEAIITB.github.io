@@ -619,10 +619,12 @@ ul li a:hover{
     margin-top: 3rem;
     }
     .events-layer h4 {
+         font-family:gabriola;
         font-size: 6.0rem;
         margin-bottom: 20px;
     }
     .events-layer p {
+    font-family:gabriola;
    font-size: 57px;
     }
     .cn{
@@ -633,14 +635,14 @@ ul li a:hover{
     }
     .form {
     top: -80px;
-    left: 495px;
+    left: 482px;
     padding:4px;
     margin-left: -110px;
     }
 
     .icons ion-icon {
     font-size: 80px;
-    margin-left: 10px;
+        margin-left: 6px;
     margin-top: 15px;
     }
     .form h2 {
