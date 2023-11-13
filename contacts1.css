@@ -906,7 +906,7 @@ ul li a:hover{
         flex-direction: column;
         color: #ffffff;
         padding-top: 0.2rem;
-        transform: translateY(90%);
+        transform: translateY(92%);
         transition: 0.5s ease;
     }
 }
