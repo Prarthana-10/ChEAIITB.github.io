@@ -619,12 +619,12 @@ ul li a:hover{
     margin-top: 3rem;
     }
     .events-layer h4 {
-         font-family:gabriola;
+         font-family:gabriola, cursive;
         font-size: 6.0rem;
         margin-bottom: 20px;
     }
     .events-layer p {
-    font-family:gabriola;
+    font-family:'gabriola', cursive;
    font-size: 57px;
     }
     .cn{
