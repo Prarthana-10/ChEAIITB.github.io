@@ -586,7 +586,7 @@ events-box .ib{
         flex-direction: column;
         color: #ffffff;
         padding-top: 0.2rem;
-        transform: translateY(85.6%);
+        transform: translateY(86.6%);
         transition: 0.5s ease;
     }
 }
