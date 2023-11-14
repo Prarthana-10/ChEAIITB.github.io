@@ -387,7 +387,7 @@ ul li a:hover{
     margin-bottom: 0px;
 }
 .events-layer p{
-    font-family: valera;
+    font-family:gabriola;
     font-size: 21px;
     margin: 0 0 0;
 }
@@ -408,10 +408,10 @@ ul li a:hover{
     
 }
 .events-layer h4{
+    font-family:gabriola;
     font-size: 1.5rem ;
     color: #ff7200;
     margin-bottom: 0px;
-    font-family: cursive;
     /* font-style: normal; */
 }
 .cn a{
@@ -597,7 +597,7 @@ ul li a:hover{
     .form{
     top: 30px;
    left: 448px;
-    width: 771px;
+    width: 813px;
     padding:4px;
     margin-left: -10px;
     }
@@ -606,7 +606,7 @@ ul li a:hover{
     }
     .icons ion-icon {
     font-size: 80px;
-    margin-left: -413px;
+        margin-left: -453px;
         margin-right: 436px;
             margin-top: 15px;
     }
