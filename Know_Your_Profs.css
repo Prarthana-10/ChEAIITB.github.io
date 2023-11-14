@@ -852,6 +852,7 @@ ul li a:hover{
         margin-top: 20px;
     }
     .icons ion-icon {
+	        margin-left: -19px;
         font-size: 54px;
             }
     .form h2 {
