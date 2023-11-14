@@ -380,7 +380,7 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
-        left: 448px;
+        font-family:gabriola;
     font-size: 1.5rem ;
     color: #ff7200;
     margin-bottom: 0px;
