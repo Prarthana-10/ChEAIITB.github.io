@@ -368,7 +368,7 @@ ul li a:hover{
     flex-direction: column;
     color: #ffffff;
     padding-top: 0.2rem;
-    transform: translateY(89%);
+    transform: translateY(88%);
     transition: 0.5s ease;
 }
 .events-box:hover .events-layer{
