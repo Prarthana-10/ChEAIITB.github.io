@@ -379,10 +379,12 @@ ul li a:hover{
 }
 .events-layer h4{
     font-size: 1.5rem ;
+        font-family:gabriola;
     color: #ff7200;
     margin-bottom: 70px;
 }
 .events-layer p{
+    font-family:gabriola;
     font-size: 45px;
     margin: 0 0 0;
 }
@@ -480,11 +482,13 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
+    font-family:gabriola;
     font-size: 1.5rem ;
     color: #ff7200;
     margin-bottom: 0px;
 }
 .events-layer p{
+    font-family:gabriola;
     font-size: 13px;
     margin: 0 0 0;
 }
@@ -588,11 +592,13 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
+    font-family:gabriola;
     font-size: 1.5rem ;
     color: #ff7200;
     margin-bottom: 0px;
 }
 .events-layer p{
+    font-family:gabriola;
     font-size: 20px;
     margin: 0 0 0;
 }
@@ -876,14 +882,14 @@ ul li a:hover{
     }
     .form{
     top: 30px;
-    left: 495px;
+        left: 448px;
     padding:4px;
     margin-left: -10px;
     }
     .icons ion-icon {
     width: 70px;
     font-size: 80px;
-    margin-left: -20px;
+        margin-left: -34px;
     margin-top: 15px;
     }
     .form h2 {
