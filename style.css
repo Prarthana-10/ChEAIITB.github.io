@@ -904,8 +904,8 @@ ul #home a{
     .frontpage {
     grid-template-columns: repeat(1, 1fr);
     }
-    .lowerpart {
-    margin-top: 1836px;    }
+/*     .lowerpart { */
+/*     margin-top: 1836px;    } */
     .embeddedvdo iframe {
             width: 1000px;
     height: 565px;
