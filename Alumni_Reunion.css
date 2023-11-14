@@ -348,6 +348,7 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
+    font-family:gabriola;
     font-size:1.8rem ;
     color: #ff7200;
     margin-bottom: 0px;
@@ -642,7 +643,7 @@ ul li a:hover{
 
     .icons ion-icon {
     font-size: 80px;
-    margin-left: 10px;
+    margin-left: -8px;
     margin-top: 15px;
     }
     .form h2 {
