@@ -342,9 +342,15 @@ events-box .ib{
     margin-left: -99px;  
     padding-left: 0px;
     }
+     .events-layer h4 {
+    margin-bottom: -10px;}
+     .events-layer p {
+    font-size: 17.5px;}
     .icons ion-icon{
     padding-left: 30px;
     }
+     .cn {
+    margin-top: -4px;}
     .form{
     width: 1200px;
     top: -7px;
