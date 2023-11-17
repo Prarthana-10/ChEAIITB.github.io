@@ -208,7 +208,7 @@ ul li a:hover{
     align-items: center;
     gap: 2.9rem;
     padding-left: -20px;
-    margin-left: 445px;
+    margin-left: 295px;
 }
 .event-container .events-box{
     position:relative;
@@ -331,7 +331,7 @@ ul li a:hover{
     }
   .event-container{
     gap: 1.9rem;
-        margin-left: 238px;
+        margin-left: 95px;
     padding-left: 123px;
     width:707px;    }
     .icons ion-icon{
@@ -515,7 +515,7 @@ ul li a:hover{
     .event-container {
     width: 100px;
     top: 20px;
-        left: -497px;grid-template-columns: repeat(1, 1fr);
+        left: -361px;grid-template-columns: repeat(1, 1fr);
     gap: 2.5rem;
     }
     .events h2 {
