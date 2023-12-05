@@ -19,7 +19,10 @@ body{
 header{
     background-color: transparent;
 }
-
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
 .navbar{
     /* overflow: hidden; */
     width: 150%;
@@ -577,8 +580,8 @@ ul #home a{
  * ----------------------------------------
  */
  .bounce-top {
-	-webkit-animation: bounce-top 1.5s 2 both;
-	        animation: bounce-top 1.5s 2 both;
+    -webkit-animation: bounce-top 1.5s 2 both;
+            animation: bounce-top 1.5s 2 both;
 }
 
  @-webkit-keyframes bounce-top {
@@ -837,6 +840,23 @@ ul #home a{
         width: 169px;
         /* width: 1500px; */
     }
+    .hamburger{
+        top: 30px;
+        right: 60px;
+        z-index: 9;
+        position: fixed;
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }     
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
 
     .nav-menu{
         position: fixed;
@@ -856,7 +876,19 @@ ul #home a{
     ul li a{
         font-size: 52px;
     }
-    
+    .nav-menu.active{
+        position: fixed;
+        z-index: 9;
+        left: 0px;
+        top: 0px;
+        gap: 55px;
+        height: 100%;
+    }
+    .bar{
+    width: 95px;
+    height: 28px;
+    margin-left: 1050px;
+    }
     .frontpage .bounce-top {
         margin-top: -2356px;
     margin-left: 80px;
@@ -945,6 +977,19 @@ ul #home a{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+  
+
 
 
 
