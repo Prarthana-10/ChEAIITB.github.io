@@ -156,21 +156,6 @@ ul li a:hover{
     text-decoration: none;
     color: #ff7200;
 }
-.icons a{
-    text-decoration: none;
-    color: #fff;
-}
-.icons ion-icon{
-    color: #fff;
-    font-size: 35px;
-    padding-left: 14px;
-    padding-top: 10px;
-    transition: 0.3s ease;
-    margin-bottom: -40px;
-}
-.icons ion-icon:hover{
-    color: #ff7200;
-}
 .blogs{
     align-items: center;
     /* float: right; */
@@ -390,9 +375,6 @@ ul li a:hover{
     margin-left: -20px;
     padding-left: 0px;
     }
-    .icons ion-icon{
-    padding-left: 30px;
-    }
     .form {
     width: 1200px;
    margin-top: 32px;
@@ -543,14 +525,6 @@ ul li a:hover{
     top: -16px;
     left: 435px;
     padding:9px;
-    }
-
-    .icons ion-icon {
-    width: 50px;
-    font-size: 50px;
-    margin-left: -8px;
-    margin-top: 25px;
-    margin-bottom: -10px;
     }
     .form h2 {
         margin-top: -10px;
