@@ -92,70 +92,7 @@ ul li a:hover{
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
-.form{
-    width: 1300;
-    height: 100px;
-    background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%);
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    top: -20px;
-    text-align: center;
-    transform: translate(0%,-5%);
-    border-radius: 10px;
-    padding: 25px;
-    align-items: center;
-    margin-top: 60px;
-    margin-left: -150px;
-}
-.form h2{
-    width: 437px;
-    font-family: valera;
-    text-align: center;
-    color: #fff;
-    font-size: 26px;
-    /* background-color: #fff; */
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-    align-items: center;
-    margin-left: 525px;
-    margin-right: 0;
-    margin-top: -1000px;
-    margin-bottom: -40px;
-}
-.form input{
-    bottom: 0px;
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid #ff7200;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-family: sans-serif;
-}
-.form input:focus{
-    outline: none;
-}
-::placeholder{
-    color: #fff;
-    font-family: Arial;
-}
-.form .link{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
-    text-align: center;
-}
-.form .link a{
-    text-decoration: none;
-    color: #ff7200;
-}
+
 .blogs{
     align-items: center;
     /* float: right; */
@@ -375,14 +312,6 @@ ul li a:hover{
     margin-left: -20px;
     padding-left: 0px;
     }
-    .form {
-    width: 1200px;
-   margin-top: 32px;
-    left: 34px;
-    }
-  .form h2{
-    margin-left: 385px;
-    }   
 }
 @media screen and (max-width: 451px){
     /*mobile*/
@@ -520,16 +449,5 @@ ul li a:hover{
     }
     .blogs-layer p {
     font-size: 60.5px;
-    }
-    .form {
-    top: -16px;
-    left: 435px;
-    padding:9px;
-    }
-    .form h2 {
-        margin-top: -10px;
-        width: 835px;
-        font-size: 60px;
-        margin-left: -258px;
     }
 }
