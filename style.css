@@ -579,10 +579,10 @@ ul #home a{
  * animation bounce-top
  * ----------------------------------------
  */
- /*.bounce-top {
+ .bounce-top {
     -webkit-animation: bounce-top 1.5s 2 both;
             animation: bounce-top 1.5s 2 both;
-}*/
+}
 
  @-webkit-keyframes bounce-top {
     0% {
