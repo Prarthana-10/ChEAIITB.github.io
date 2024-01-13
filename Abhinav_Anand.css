@@ -9,3 +9,6 @@ padding: 0;
     background-size: cover;
     height: 109vh;
 }
+header{
+    background-color: transparent;
+}
