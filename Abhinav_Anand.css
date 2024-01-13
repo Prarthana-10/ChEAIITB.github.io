@@ -29,5 +29,11 @@ header{
     column-gap: 100px;
     background-attachment: fixed;
 }
+.menu{
+    width: 330px;
+    height: 80px;
+    float: left; 
+    }
+
 
 
