@@ -3,19 +3,40 @@ margin: 0;
 padding: 0;
 }
 
-body{
-     background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url("plant.jpeg");
-     -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-     -ms-backface-visibility: hidden;
-     transform: translate3d(0, 0, 0);
-      will-change: transform;
-     background-size: cover;
-     width: 100%;
-     height: 700px;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
- }
+body {
+  /* Preload the image */
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 100%, rgba(0, 0, 0, 0.7) 100%);
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden; /* Prevent scrollbars during image loading */
+
+  /* Specify image dimensions */
+  min-height: 100vh; /* Adjust as needed */
+  width: 100%;
+  
+  /* Apply hardware acceleration */
+  transform: translate3d(0, 0, 0);
+
+  /* Hint to the browser for possible changes */
+  will-change: background;
+}
+
+/* Preload the image */
+body::before {
+  content: "";
+  background-image: url("plant.jpeg");
+  position: fixed;
+  top: -9999px; /* Move off-screen */
+  left: -9999px; /* Move off-screen */
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
 .main{
     width: 100%;
     /* background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.9)100%),url(plant.jpg); */
