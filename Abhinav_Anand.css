@@ -50,14 +50,6 @@ header{
     margin-top: 5px;
     margin-left:-100px;
 }
-ul{
-    gap: 7.6rem;
-    float: left;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
 @media screen and (min-width: 830px) and (max-width: 1200px) {
     /* Normal Screen */
    .logo{
@@ -144,6 +136,163 @@ ul{
   .form h2{
     margin-left: 385px;
     }   
+}
+@media screen and (max-width: 451px){
+    /*mobile*/
+    .logo{
+        position: fixed;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .menu{
+        margin-top: 28px;
+    }
+     .hamburger{
+        z-index: 9;
+        position: fixed;
+        display: block;
+    }
+     .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }     
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+     .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background:linear-gradient(to left, rgba(0,0,0,0.8)100% ,rgba(0,0,0,0.9)100%);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 46px 10px;
+        margin-top: 15rem;
+    }
+    ul li a{
+        font-size: 52px;
+    }
+
+    .nav-menu.active{
+        position: fixed;
+        z-index: 9;
+        left: 0px;
+        top: 0px;
+        gap: 1px;
+        height: 100%;
+    }
+    .bar{
+    width: 95px;
+    height: 28px;
+    margin-left: 1050px;
+    }
+    .blog-container img {
+    height: 578px;
+    width: 676px;
+    margin-left: 153px;
+    margin-top: 0px;
+}
+    .blog-container p {
+    font-size: 56.7px;
+    margin-left: -162px;
+    margin-right: -220px;
+    padding-left: 150px;
+    margin-top: 30px;
+    }
+    .blog-c1 img {
+    width: 961px;
+    height: 602px;
+    margin-left: -41px;
+    margin-top: 100px;
+    float: none;
+    }
+    .blog-c1 p {
+    font-size: 56.7px;
+    margin-left: -197px;
+    margin-right: -824px;
+    padding-left: 101px;
+    }
+    .blog-c2 p {
+    font-size: 56.7px;
+    margin-left: -164px;
+    margin-right: -844px;
+    padding-left: 101px;
+    }
+    .blog-c3 img {
+    height: 538px;
+    width: 988px;
+   margin-left: -65px;
+    margin-top: 29px;
+    margin-bottom: 39px;
+    }     
+    .blog-c3 p {
+    font-size: 56.7px;
+    margin-left: -200px;
+    margin-right: -812px;
+    padding-left: 101px;
+    }
+    .blogs{
+        margin-left: 180px;
+    }
+    .blog-container {
+    width: 100px;
+    top: 20px;
+    left: -73px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+    }
+    .blogs h2 {
+    margin-bottom: 32px;
+    margin-left: 305px;
+    font-size: 81px;
+    margin-top: 3rem;
+    }
+    .blog-container .blogs-box {
+        width: 1000px;
+        margin-bottom: 70px;
+    }
+    .blogs-box .blogs-layer {
+        transform: translateY(91%);
+    }
+   .blogs-layer h4 {
+    font-size: 4.1rem;
+    margin-bottom: 50px;
+        width: 1022px;
+      margin-left: -27px;
+}
+    .blogs-layer p {
+    font-size: 60.5px;
+    }
+    .form {
+    top: -16px;
+    left: 435px;
+    padding:9px;
+    }
+
+    .icons ion-icon {
+    width: 50px;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    }
+    .form h2 {
+        margin-top: -10px;
+        width: 835px;
+        font-size: 60px;
+        margin-left: -258px;
+    }
 }
 
 
