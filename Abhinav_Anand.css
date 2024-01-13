@@ -4,8 +4,6 @@ padding: 0;
 }
 body{
      background: url("plant.jpeg");
-     background-size: cover;
-     background-repeat: no-repeat;
      background-attachment: fixed;
  }
 .main{
