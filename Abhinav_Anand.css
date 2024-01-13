@@ -4,7 +4,10 @@ padding: 0;
 }
 
 body{
-     background: url("plant.jpeg");
+     background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url("plant.jpeg");
+     -webkit-backface-visibility: hidden;
+     -moz-backface-visibility: hidden;
+     -ms-backface-visibility: hidden;
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
