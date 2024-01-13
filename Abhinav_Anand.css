@@ -22,4 +22,12 @@ header{
     display: none;
     cursor: pointer;
 }
+.navbar {
+    width: 1220px;
+    height: 75px;
+    margin: auto;
+    column-gap: 100px;
+    background-attachment: fixed;
+}
+
 
