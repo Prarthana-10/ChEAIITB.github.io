@@ -4,36 +4,17 @@ padding: 0;
 }
 
 body {
-  /* Preload the image */
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 100%, rgba(0, 0, 0, 0.7) 100%);
-  background-size: cover;
-  -webkit-backface-visibility: hidden;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: hidden; /* Prevent scrollbars during image loading */
-
-  /* Specify image dimensions */
-  min-height: 100vh; /* Adjust as needed */
-  width: 100%;
-  
-  /* Apply hardware acceleration */
-  transform: translate3d(0, 0, 0);
-
-  /* Hint to the browser for possible changes */
-  will-change: background;
+  overflow: hidden;
+  margin: 0;
 }
 
-/* Preload the image */
-body::before {
-  content: "";
-  background-image: url("plant.jpeg");
+img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  top: -9999px; /* Move off-screen */
-  left: -9999px; /* Move off-screen */
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  pointer-events: none;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
