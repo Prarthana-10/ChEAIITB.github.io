@@ -2,12 +2,28 @@
 margin: 0;
 padding: 0;
 }
-body{
-     background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url("plant.jpeg");
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
- }
+body {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("plant.jpeg");
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100%;
+  transform: translate3d(0, 0, 0);
+  will-change: background;
+  animation: backgroundMove 10s infinite alternate linear;
+}
+
+@keyframes backgroundMove {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
 .main{
     width: 100%;
     /* background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.9)100%),url(plant.jpg); */
