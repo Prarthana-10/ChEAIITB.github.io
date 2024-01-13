@@ -50,11 +50,12 @@ header{
     margin-top: 5px;
     margin-left:-100px;
 }
-ul li{
-    list-style: none;
-    margin-left: 3px;
-    margin-top: 71px;
-    font-size: 16px;
+ul{
+    gap: 7.6rem;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 @media screen and (min-width: 830px) and (max-width: 1200px) {
