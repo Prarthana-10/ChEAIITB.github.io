@@ -40,6 +40,16 @@ header{
     float: left;
     height: 70px;
 }
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left:-100px;
+}
 
 @media screen and (min-width: 830px) and (max-width: 1200px) {
     /* Normal Screen */
