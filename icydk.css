@@ -452,7 +452,7 @@ ul li a:hover{
 @media screen and (max-width: 451px){
     /*mobile*/
      body{
-          background: url("chemp3.jpg")
+          background-image: url('chemp3.jpg');
      }
     .logo{
         position: fixed;
