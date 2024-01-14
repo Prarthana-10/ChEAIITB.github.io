@@ -451,11 +451,16 @@ ul li a:hover{
 }
 @media screen and (max-width: 451px){
     /*mobile**/
-     body{
-          background-image: url("bgm.png");
-          display: flex; 
-    flex-direction: column;
-     }
+    body {
+        background-image: url("bgm.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0; /* Remove default margin to ensure full coverage */
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
     .logo{
         position: fixed;
         font-size: 40px;
