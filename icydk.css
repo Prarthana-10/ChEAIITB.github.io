@@ -451,6 +451,9 @@ ul li a:hover{
 }
 @media screen and (max-width: 451px){
     /*mobile**/
+     body{
+          background-image: url("bgm.png");
+     }
     .logo{
         position: fixed;
         font-size: 40px;
