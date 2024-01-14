@@ -459,7 +459,7 @@ ul li a:hover{
         margin: 0; /* Remove default margin to ensure full coverage */
         display: flex;
         flex-direction: column;
-        min-height: 851vh;
+        min-height: 200vh;
     }
     .logo{
         position: fixed;
