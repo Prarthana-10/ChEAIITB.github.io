@@ -460,9 +460,10 @@ ul li a:hover{
         display: flex;
         flex-direction: column;
         min-height: 200vh;
+         height: 100%;
     }
      .main{
-          height: 838vh;
+          height: 100%;
      }
     .logo{
         position: fixed;
