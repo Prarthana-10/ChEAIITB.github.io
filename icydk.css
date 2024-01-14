@@ -453,10 +453,8 @@ ul li a:hover{
     /*mobile**/
      body{
           background-image: url("bgm.png");
-     }
-     .main{
-          width: 100%;
-          height: 100vh;
+          display: flex; 
+    flex-direction: column;
      }
     .logo{
         position: fixed;
