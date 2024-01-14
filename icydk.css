@@ -461,6 +461,9 @@ ul li a:hover{
         flex-direction: column;
         min-height: 200vh;
     }
+     .main{
+          height: 838vh;
+     }
     .logo{
         position: fixed;
         font-size: 40px;
