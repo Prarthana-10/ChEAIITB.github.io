@@ -454,6 +454,8 @@ ul li a:hover{
      body{
           background-image: url("bgm.png");
           background-size: cover;
+          width: 100%;
+    height: 100vh;
      }
     .logo{
         position: fixed;
