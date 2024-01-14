@@ -4,13 +4,13 @@ padding: 0;
 }
 
 body{
-     background: url("chemp2.jpg");
+     background-image: url("bg.png");
       background-size: cover;
      background-repeat: no-repeat;
  }
 .main{
     width: 100%;
-    /* background:url(chemp2.jpg); */
+    /* background:url(bg.png); */
     background-position: center;
     background-size: cover;
      /* height: 109vh; */ 
@@ -450,10 +450,7 @@ ul li a:hover{
     }
 }
 @media screen and (max-width: 451px){
-    /*mobile*/
-     body{
-          background: url('chemp3.jpg');
-     }
+    /*mobile**/
     .logo{
         position: fixed;
         font-size: 40px;
