@@ -576,7 +576,6 @@ ul li a:hover{
         display: inline-block;
     }
     .form {
-     background-color: black;
       top: 8px;
     left: 435px;
     padding:9px;
@@ -589,7 +588,6 @@ ul li a:hover{
     margin-top: 25px;
     }
     .form h2 {
-           background-color: black;
         margin-top: -10px;
         width: 835px;
         font-size: 60px;
