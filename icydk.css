@@ -588,6 +588,7 @@ ul li a:hover{
     margin-top: 25px;
     }
     .form h2 {
+           background-color: black;
         margin-top: -10px;
         width: 835px;
         font-size: 60px;
