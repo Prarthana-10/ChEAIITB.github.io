@@ -5,6 +5,7 @@ padding: 0;
 
 body{
      background-image: url("bg1.png");
+          background-color: rgb(0, 0, 0, 0.9);
       background-size: cover;
      background-repeat: no-repeat;
  }
@@ -402,6 +403,9 @@ ul li a:hover{
         min-height: 200vh;
          height: 100%;
     }
+     .main{
+          height: 100%;
+     }         
     .logo{
         position: fixed;
         font-size: 40px;
