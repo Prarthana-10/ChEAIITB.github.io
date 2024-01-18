@@ -551,6 +551,9 @@ ul li a:hover{
         min-height: 200vh;
          height: 100%;
     }
+    .main{
+        height: 100%
+    }
     .logo{
         position: fixed;
         font-size: 40px;
