@@ -4,17 +4,16 @@ padding: 0;
 }
 
 body{
-     background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url("plant.jpeg");
-     background-size: cover;
+     background-image: url("bg1.png");
+      background-size: cover;
      background-repeat: no-repeat;
-     background-attachment: fixed;
  }
 .main{
     width: 100%;
-    /* background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.9)100%),url(plant.jpg); */
+    /* background:url(bg.png); */
     background-position: center;
     background-size: cover;
-    height: 109vh;
+     /* height: 109vh; */ 
 }
 header{
     background-color: transparent;
@@ -391,6 +390,18 @@ ul li a:hover{
 }
 @media screen and (max-width: 451px){
     /*mobile*/
+     body {
+        background-image: url("bgm1.png");
+     background-color: rgb(0, 0, 0, 0.9);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0; /* Remove default margin to ensure full coverage */
+        display: flex;
+        flex-direction: column;
+        min-height: 200vh;
+         height: 100%;
+    }
     .logo{
         position: fixed;
         font-size: 40px;
