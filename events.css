@@ -6,7 +6,6 @@
 body{
     background:linear-gradient(to left, rgba(0,0,0,0.93)100% ,rgba(0,0,0,0.7)100%),url(plant.jpeg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 .main{
@@ -556,6 +555,18 @@ ul li a:hover{
 }    
 @media screen and (max-width: 451px){
     /* mobile */
+    body {
+        background-image: url("plant.jpeg");
+     background-color: rgb(0, 0, 0, 0.9);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0; /* Remove default margin to ensure full coverage */
+        display: flex;
+        flex-direction: column;
+        min-height: 200vh;
+         height: 100%;
+    }
     .logo{
         position: fixed;
         font-size: 40px;
