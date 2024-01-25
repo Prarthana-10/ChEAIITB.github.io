@@ -550,10 +550,12 @@ events-box .ib{
         transform: translateY(88%);
     }
     .events-layer h4 {
+         font-family: cursive;
         font-size: 5.1rem;
         margin-bottom: 50px;
     }
     .events-layer p {
+         font-family: cursive;
     font-size: 40px;
     }
     .cn {
