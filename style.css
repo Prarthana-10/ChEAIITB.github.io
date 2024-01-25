@@ -698,11 +698,12 @@ ul #home a{
         font-size: 22px;
     }
     .embeddedvdo{
-            margin-top: 70px;
+    margin-top: 691px;
     margin-left: 56px;
     }
     .whatwedo{
-    margin-top: -40px;
+        margin-top: 38px;
+    margin-bottom: 77px;
     }
     .frontpage .bounce-top {
     margin-top: 16px;
@@ -722,6 +723,10 @@ ul #home a{
     .lowerpart {
     margin-top: -57px;
     }
+    .gforms {
+    margin-left: 330px;
+    margin-top: 52px;
+}
     .datadashboard {
     margin-top: 50px;
     width: 1430px;
@@ -736,15 +741,15 @@ ul #home a{
     }
     .form h2{
         font-size: 19px;
-        margin-left: 510px;
+    margin-left: 478px;
         margin-top: 5px;
     }
     .lowerpart .lowerh3 {
     font-family: varela;
-    margin-top: 92px;
+    margin-top: 655px;
     font-size: 23px;
     text-align: justify;
-    margin-left: 29px;
+    margin-left: -220px;
     color: #ffffff;
     display: inline-flex;
     width: 435px;
