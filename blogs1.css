@@ -249,9 +249,10 @@ ul li a:hover{
 }
 .events-layer h4{
      font-family:gabriola;
+         margin-top: -3px;
     font-size:1.5rem ;
     color: #ff7200;
-    margin-bottom: -13px;
+    margin-bottom: -1px;
 }
 .events-layer p{
      font-family:gabriola;
