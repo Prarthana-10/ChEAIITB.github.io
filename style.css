@@ -743,27 +743,6 @@ ul #home a{
     height: 75px;
     /* margin-right: 100px; */
 }
-.logo{
-    color: #ff7200;
-    font-size: 35px;
-    background-color: #000000;
-    font-family: Arial;
-    padding-left: -80px;
-    float: left;
-    height: 100px;
-    margin-left: -75px;
-    padding-top: 0px;
-    padding-left: 10px;
-    margin-top: 4px;
-
-}
-.menu{
-    margin-top: -10px;
-    /* width: 100%; */
-    float: left;
-    height: 80px;
-    box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 0.2), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
-}
 }
 @media screen and (max-width: 451px){
     /* mobile */
