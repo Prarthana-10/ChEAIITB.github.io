@@ -201,7 +201,7 @@ ul li a:hover{
     margin: 2px;
     padding: 8px;
     align-items: center;
-    margin-left: 595px;
+    margin-left: 558px;
     margin-right: 0;
     margin-top: 10px;
     padding-left: -10px;
@@ -543,12 +543,16 @@ ul li a:hover{
     .events h2{
             margin-left: 314px;        font-size: 36px;
     }
+    .icons{
+    margin-left: -111px;
+}
     .form{
         margin-left: 210px;
         margin-top: -60px;
     }
     .form h2{
-        margin-left: 196px;
+            margin-top: -9px;
+    margin-left: 168px;
     }
 }    
 @media screen and (max-width: 451px){
