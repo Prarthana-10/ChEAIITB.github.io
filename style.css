@@ -873,7 +873,7 @@ ul #home a{
     }
     .frontpage .bounce-top {
     margin-top: -2439px;
-    margin-left: 111px;
+        margin-left: 163px;
     }
     .bounce-top img{
     width: 800px;
@@ -895,11 +895,11 @@ ul #home a{
     .content h1 {
     width: 900px;
     font-size: 73px;
-    margin-left: 124px;
+        margin-left: 164px;
     }
     .content .par {
-    width: 1000px;
-    margin-left: 39px;
+        width: 1108px;
+    margin-left: 30px;
     line-height: 1.2em;
     font-size: 50px;
     }
@@ -913,25 +913,25 @@ ul #home a{
     grid-template-columns: repeat(1, 1fr);
     }
     .embeddedvdo {
-    margin-left: 113px;
+        margin-left: 164px;
        margin-top: 621px;
     margin-bottom: -157px;
 }
    .lowerpart .lowerh3 {
     font-size: 50px;
     letter-spacing: 3.2px;
-    width: 1009px;
+        width: 1097px;
     line-height: 1.1em;
     margin-top: 220px;
     margin-left: 120px;
     margin-right: 200px;
 }
     .gforms{
-     margin-left: 200px;
+         margin-left: 239px;
     margin-top: 52px;
 }
     .whatwedo {
-    margin-left: 318px;
+        margin-left: 353px;
     margin-top: 29px;
     font-size: 42px;  
     width: 800px;
