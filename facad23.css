@@ -385,7 +385,7 @@ ul li a:hover{
     margin-bottom: 0px;
 }
 .events-layer p{
-    font-family:gabriola;
+    font-family:gabriola,cursive;
     font-size: 21px;
     margin: 0 0 0;
 }
@@ -406,7 +406,7 @@ ul li a:hover{
     
 }
 .events-layer h4{
-    font-family:gabriola;
+    font-family:gabriola,cursive;
     font-size: 1.5rem ;
     color: #ff7200;
     margin-bottom: 0px;
@@ -575,6 +575,7 @@ ul li a:hover{
     transform: translateY(89%);
     }
     .events-layer h4 {
+            margin-top: -8px;
     font-size: 5.0rem;
     }
     .event-container .events-box {
