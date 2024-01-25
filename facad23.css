@@ -563,6 +563,9 @@ ul li a:hover{
     height: 28px;
     margin-left: 1050px;
     }
+    .events {
+    margin-left: 228px;
+    }
     .event-container {
     grid-template-columns: repeat(1, 2fr);
     gap: 4.5rem;
@@ -611,7 +614,9 @@ ul li a:hover{
     padding:4px;
     margin-left: -10px;
     }
-
+.icons {
+    margin-left: 396px;
+}
     .icons ion-icon {
     font-size: 80px;
         margin-left: -453px;
