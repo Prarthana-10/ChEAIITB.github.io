@@ -133,7 +133,7 @@ ul #home a{
     /* float: left; */
     position: absolute;
     left: 90px;
-    margin-left: 50px;
+    margin-top: -15px;
     margin-top: 50px;
     z-index: 2;
 }
