@@ -471,7 +471,7 @@ ul li a:hover{
         width: 1011px;
             left: -1px;    }
     .icons ion-icon {
-    margin-left: 38px;
+    margin-left: 22px;
     margin-right: -30px;    }
     .form h2{
     font-size: 24px;
@@ -608,7 +608,8 @@ ul li a:hover{
     }
     .icons ion-icon {
     font-size: 80px;
-    margin-left: -454px;
+        margin-left: -454px;
+    padding-left: 14px
         margin-right: 436px;
             margin-top: 15px;
     }
