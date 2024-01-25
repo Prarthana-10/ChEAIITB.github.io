@@ -248,14 +248,14 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
-     font-family:gabriola;
+     font-family:gabriola,cursive;
          margin-top: -3px;
     font-size:1.5rem ;
     color: #ff7200;
     margin-bottom: -1px;
 }
 .events-layer p{
-     font-family:gabriola;
+     font-family:gabriola,cursive;
     font-size: 17.5px;
     margin: 0 0 0;
 }
