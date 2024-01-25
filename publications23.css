@@ -378,13 +378,14 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
-        font-family:gabriola;
+        font-family:gabriola,cursive;
     font-size: 1.5rem ;
+        margin-top: -14px;
     color: #ff7200;
     margin-bottom: 0px;
 }
 .events-layer p{
-    font-family: valera;
+    font-family: valera,cursive;
     font-size: 21px;
     margin: 0 0 0;
 }
