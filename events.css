@@ -558,17 +558,7 @@ ul li a:hover{
 @media screen and (max-width: 451px){
     /* mobile */
 body {
-        background-image: url("bg1.png");
-     background-color: rgb(0, 0, 0, 0.9);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        margin: auto; /* Remove default margin to ensure full coverage */
-    padding: 0;
-        display: flex;
-        flex-direction: column;
-        min-height: 200vh;
-         height: 100%;
+     background-color: black;
 }
     .logo{
         position: fixed;
