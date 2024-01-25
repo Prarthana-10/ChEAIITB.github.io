@@ -688,8 +688,15 @@ ul #home a{
         font-size: 22px;
     }
     .embeddedvdo{
+            margin-top: 70px;
     margin-left: 56px;
     }
+    .whatwedo{
+    margin-top: -40px;
+    }
+    .frontpage .bounce-top {
+    margin-top: 16px;
+          }
     .content {
     width: 802px;
     height: auto;
