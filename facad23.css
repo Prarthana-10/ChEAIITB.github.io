@@ -466,9 +466,11 @@ ul li a:hover{
     transform: translateY(89%);
     }
     .events-layer h4 {
+        font-family: cursive;
     margin-bottom: 10px;
     }
     .events-layer p {
+        font-family: cursive;
     font-size: 22px;
     }
     .cn{
@@ -575,6 +577,7 @@ ul li a:hover{
     transform: translateY(89%);
     }
     .events-layer h4 {
+        font-family: cursive;
             margin-top: -8px;
     font-size: 5.0rem;
     }
@@ -586,6 +589,7 @@ ul li a:hover{
     font-size: 81px;
     width: 800px;
 }    .events-layer p {
+        font-family: cursive;
     font-size: 62px;
     margin-top: 15px;
     }
