@@ -515,14 +515,20 @@ ul #home a{
     margin-top: 600px;
     font-size: 22px;
     text-align: justify;
-    margin-left: 40px;
+        margin-left: -247px
     color: #ffffff;
     display: inline-flex;
     width: 468px;
 
 }
 .gforms{
-     margin-left: 40px;
+     margin-left: 330px;
+    margin-top: 52px;
+}
+.gforms iframe{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 1), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
 }
 /* .lowerpart .lowerh3 ul li{ */
     /* width: 300px; */
