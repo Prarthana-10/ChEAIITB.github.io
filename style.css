@@ -738,19 +738,6 @@ ul #home a{
     display: inline-flex;
     width: 435px;
 }
-.navbar{
-    /* overflow: hidden; */
-    width: 150%;
-    height: 105px;
-    margin-left: 80px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    background-attachment: fixed;
-    background-color: #000000;
-    position: fixed;
-    z-index: 3;
-    box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 0.2), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
-}
 .icon{
     width: 89px;
     float: left;
