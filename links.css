@@ -250,12 +250,14 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
-        font-family:gabriola;
+        font-family:gabriola,cursive;
     font-size:1.5rem ;
+         margin-top: -20px;
     color: #ff7200;
     margin-bottom: 0px;
 }
 .events-layer p{
+      font-family:gabriola,cursive;
     font-size: 15px;
     margin: 0 0 0;
 }
