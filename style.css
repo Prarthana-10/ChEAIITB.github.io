@@ -138,13 +138,13 @@ ul #home a{
     z-index: 2;
 }
 .frontpage .bounce-top{
-    margin-top: 50px;
-    margin-left: 50px;
+        margin-top: -16px;
+    margin-left: 133px;
 }
 .content{
     width: 760px;
     height: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: justify;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -226,7 +226,7 @@ ul #home a{
     margin: 0px;
     padding: 8px;
     align-items: center;
-    margin-left: 500px;
+    margin-left: 536px;
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -475,7 +475,7 @@ ul #home a{
 .embeddedvdo{
     align-items: center;
     margin-left: 70px;
-    margin-top: 145px;
+    margin-top: 597px;
     width: 850px;
 }
 .embeddedvdo iframe{
@@ -487,7 +487,7 @@ ul #home a{
 .whatwedo{
     color: #ffffff;
     align-items: left;
-    margin-left: 320px;
+    margin-left: 601px;
     margin-top: 50px;
     font-family: 'varela';
     font-size: 25px;
@@ -512,7 +512,7 @@ ul #home a{
 }
 .lowerpart .lowerh3{
     font-family: varela;
-    margin-top: 150px;
+    margin-top: 600px;
     font-size: 22px;
     text-align: justify;
     margin-left: 40px;
