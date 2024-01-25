@@ -342,8 +342,10 @@ events-box .ib{
     padding-left: 0px;
     }
      .events-layer h4 {
+          font-family: cursive;
     margin-bottom: -10px;}
      .events-layer p {
+          font-family: cursive;
     font-size: 17.5px;}
     .icons ion-icon{
     padding-left: 6px;
@@ -553,12 +555,12 @@ events-box .ib{
         transform: translateY(91%);
     }
     .events-layer h4 {
-          font-family:gabriola;
+          font-family:gabriola,cursive;
         font-size: 5.8rem;
         margin-bottom: 50px;
     }
     .events-layer p {
-          font-family: gabriola, curvise;
+          font-family: gabriola, cursive;
     font-size: 63px;
     }
     .cn {
