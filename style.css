@@ -21,19 +21,11 @@ header{
     display: none;
     cursor: pointer;
 }
-.navbar{
-    /* overflow: hidden; */
-    width: 150%;
-    height: 105px;
-    margin-left: 80px;
-    margin-bottom: 10px;
-    margin-top: 0px;
+.navbar {
+    width: 1220px;
+    height: 65px;
+    margin: auto;
     background-attachment: fixed;
-    background-color: #000000;
-    position: fixed;
-    z-index: 3;
-    box-shadow: #ff7200;
-    border-radius: 10px;
 }
 .icon{
     width: 89px;
@@ -903,7 +895,7 @@ ul #home a{
     margin-left: 1050px;
     }
     .frontpage .bounce-top {
-            margin-top: -2324px;
+                margin-top: -2339px;
     margin-left: 80px;
     }
     .bounce-top img{
@@ -945,7 +937,7 @@ ul #home a{
     }
     .embeddedvdo {
     margin-left: 113px;
-       margin-top: 536px;
+       margin-top: 576px;
     margin-bottom: -157px;
 }
    .lowerpart .lowerh3 {
