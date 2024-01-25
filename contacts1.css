@@ -676,9 +676,11 @@ ul li a:hover{
     margin-left: 183px;
     }
     .events-layer h4 {
+        font-family: cursive;
     margin-bottom: 70px;
     }
     .events-layer p {
+        font-family: cursive;
     font-size: 18px;
     }
     .pgcouncil-container {
@@ -793,6 +795,7 @@ ul li a:hover{
     transform: translateY(92%);
     }
     .events-layer h4 {
+        font-family: cursive;
             margin-top: -11px;
     font-size: 4.5rem;
     }
@@ -805,7 +808,9 @@ ul li a:hover{
     font-size: 81px;
     }
     .events-layer p {
-        font-size: 59px;    margin-top: 55px;
+        font-family: cursive;
+        font-size: 59px;   
+        margin-top: 55px;
     }
     .icons ion-icon {
     font-size: 90px;
