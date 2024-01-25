@@ -382,7 +382,7 @@ ul li a:hover{
     margin-bottom: 70px;
 }
 .events-layer p{
-    font-family:gabriola;
+    font-family:gabriola, cursive;
     font-size: 45px;
     margin: 0 0 0;
 }
@@ -876,8 +876,8 @@ ul li a:hover{
     .year {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 296px;
-    margin-right: -460px;
+        margin-left: 267px;
+    margin-right: -410px;
     margin-bottom: -41px;
     margin-top: 41px;
 }
