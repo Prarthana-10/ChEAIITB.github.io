@@ -716,7 +716,7 @@ ul li a:hover{
 @media screen and (max-width: 451px){
     /* mobile */
      body {
-        background-image: url("bg1.png");
+        background-image: none;
      background-color: rgb(0, 0, 0, 0.9);
         background-size: cover;
         background-repeat: no-repeat;
