@@ -514,13 +514,15 @@ margin-left: 373px;
         margin-top: 20px;
         margin-left: 30px;
     }
+    .navbar {
+    width: 1115px;}
      .gforms iframe{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 1), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
 }
 .gforms{
-    margin-left: -19px;
+margin-left: -91px;
    margin-top: 52px;
    width: fit-content;
 }
@@ -542,7 +544,7 @@ margin-left: 373px;
         width: 826px;    }
     .events h2{
         margin-top: 6rem;
-    margin-left: -72px;
+        margin-left: -145px;
     width: max-content;
     font-size: 81px;
     }
@@ -566,8 +568,8 @@ margin-left: 373px;
         display: inline-block;
     }
     .form{
-    top: 30px;
-    left: 184px;
+    top: -24px;
+    left: 91px;
     width: 809px;
     padding:4px;
     margin-left: -10px;
