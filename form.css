@@ -515,14 +515,14 @@ margin-left: 373px;
         margin-left: 30px;
     }
     .navbar {
-    width: 1115px;}
+    width: 1013px;}
      .gforms iframe{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 1), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
 }
 .gforms{
-margin-left: -91px;
+margin-left: -107px;
    margin-top: 52px;
    width: fit-content;
 }
@@ -544,9 +544,9 @@ margin-left: -91px;
         width: 826px;    }
     .events h2{
         margin-top: 6rem;
-        margin-left: -145px;
+            margin-left: -95px;
     width: max-content;
-    font-size: 81px;
+    font-size: 70px;
     }
     .events-layer p {
         font-family: cursive;
@@ -569,13 +569,13 @@ margin-left: -91px;
     }
     .form{
     top: -24px;
-    left: 91px;
+    left: 66px;
     width: 809px;
     padding:4px;
     margin-left: -10px;
     }
     .icons ion-icon {
-    font-size: 80px;
+    font-size: 54px;
         margin-left: 48px;
     padding-left: 14px
         margin-right: 436px;
