@@ -515,14 +515,14 @@ margin-left: 373px;
         margin-left: 30px;
     }
     .navbar {
-    width: 1013px;}
+    width: 884px;}
      .gforms iframe{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 1), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
 }
 .gforms{
-margin-left: -107px;
+margin-left: -179px;
    margin-top: 52px;
    width: fit-content;
 }
@@ -543,10 +543,10 @@ margin-left: -107px;
     .event-container .events-box {
         width: 826px;    }
     .events h2{
-        margin-top: 6rem;
-            margin-left: -95px;
+            margin-top: 6rem;
+    margin-left: -160px;
     width: max-content;
-    font-size: 70px;
+    font-size: 67px;
     }
     .events-layer p {
         font-family: cursive;
@@ -569,7 +569,7 @@ margin-left: -107px;
     }
     .form{
     top: -24px;
-    left: 66px;
+        left: -9px;
     width: 809px;
     padding:4px;
     margin-left: -10px;
@@ -583,7 +583,7 @@ margin-left: -107px;
     }
     .form h2 {
     width: 835px;
-    font-size: 60px;
+    font-size: 52px;
     margin-left: 29px;
     }
 }
