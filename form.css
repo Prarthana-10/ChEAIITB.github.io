@@ -23,7 +23,6 @@ header{
     cursor: pointer;
 }
 .navbar{
-    display: none;
     width: 1220px;
     height: 75px;
     margin: auto;
@@ -207,7 +206,7 @@ ul li a:hover{
     font-size: 65px
 }
 .gforms{
-     margin-left: 330px;
+         margin-left: 172px;
     margin-top: 52px;
 }
 .gforms iframe{
@@ -444,7 +443,6 @@ ul li a:hover{
         margin-top: -8px;
     }
     .navbar {
-        display: none;
     width: 1177px;}
     ul{
         gap: 80px;
@@ -453,7 +451,7 @@ ul li a:hover{
         font-size: 16px;
     }
      .gforms {
-    margin-left: 330px;
+        margin-left: 85px;
     margin-top: 52px;
 }
     .events {
@@ -522,7 +520,7 @@ ul li a:hover{
     box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 1), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
 }
 .gforms{
-    margin-left: 200px;
+    margin-left: -19px;
    margin-top: 52px;
    width: fit-content;
 }
