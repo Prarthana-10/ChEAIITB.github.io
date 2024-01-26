@@ -219,7 +219,7 @@ ul li a:hover{
     height: 100px;
     background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%);
     position: relative;
-    left: 0;
+    left: 45px;
     bottom: 0;
     top: -20px;
     text-align: center;
@@ -332,10 +332,10 @@ ul li a:hover{
 .events h2{
     margin-bottom: 1rem;
     margin-top: 3rem;
-    margin-left: 350px;
+margin-left: 373px;
     color: #ffffff;
     font-family: Arial;
-    font-size: 30px;   
+    font-size: 33px;
 }
 .events span{
     color: #ff7200;
@@ -451,7 +451,7 @@ ul li a:hover{
         font-size: 16px;
     }
      .gforms {
-        margin-left: 85px;
+        margin-left: 101px;
     margin-top: 52px;
 }
     .events {
@@ -462,7 +462,7 @@ ul li a:hover{
        margin-left: 297px;    }
     .events h2 {
     margin-top: 2.8rem;
-    margin-left: 320px;
+    margin-left: 304px;
     }
     .event-container .events-box {
     width: 270px;
@@ -541,8 +541,9 @@ ul li a:hover{
     .event-container .events-box {
         width: 826px;    }
     .events h2{
-    margin-top: 6rem;
-        margin-left: 72px;
+        margin-top: 6rem;
+    margin-left: -37px;
+    width: max-content;
     font-size: 81px;
     }
     .events-layer p {
