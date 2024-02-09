@@ -522,15 +522,6 @@ ul #home a{
     width: 468px;
 
 }
-.gforms{
-     margin-left: 330px;
-    margin-top: 52px;
-}
-.gforms iframe{
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 1), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
-}
 /* .lowerpart .lowerh3 ul li{ */
     /* width: 300px; */
     /* display: inline-block; */
@@ -723,10 +714,7 @@ ul #home a{
     .lowerpart {
     margin-top: -57px;
     }
-    .gforms {
-    margin-left: 330px;
-    margin-top: 52px;
-}
+  
     .datadashboard {
     margin-top: 50px;
     width: 1430px;
@@ -931,10 +919,6 @@ ul #home a{
     margin-left: 120px;
     margin-right: 200px;
 }
-    .gforms{
-         margin-left: 239px;
-    margin-top: 52px;
-}
     .whatwedo {
         margin-left: 353px;
     margin-top: 29px;
@@ -967,17 +951,6 @@ ul #home a{
         margin-top: -50px;
         display: none;
     }
-    .gforms iframe{
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow:  0 4px 8px 0 rgba(255, 114, 0, 1), 0 6px 20px 0 rgba(255, 114, 0, 0.19);
-}
-.gforms{
-    margin-left: 200px;
-   margin-top: 52px;
-   width: fit-content;
-}
-
 }
 
 
