@@ -167,9 +167,6 @@ ul li a:hover{
     color: #000;
     transition: .3s ease;
 }
-.cn:hover{
-    background-color: #ffffff;
-}
 .content span{
     color: #ff7200;
     font-size: 65px
