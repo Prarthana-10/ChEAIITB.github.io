@@ -332,17 +332,22 @@ events-box .ib{
         margin-left: 10px;
     }
     .menu{
-        margin-left: 30px;
-        margin-top: -8px;
+        margin-left: 67px;
+    margin-top: -8px;
     }
     ul{
-        gap: 0px;
+        gap: 86px;
     }
     ul li a{
         font-size: 20px;
     }
+    .events {
+    align-items: center;
+    /* float: right; */
+    margin-left: 169px;
+    }
   .events h2 {
-    margin-left: 379px;
+    margin-left: 327px;
     }
     .heading h3{
     margin-left: -100px;
@@ -350,25 +355,26 @@ events-box .ib{
    }
   .event-container{
     gap: 1.9rem;
-    margin-left: -85px;  
-    padding-left: 0px;
+    margin-left: 332px;
+    padding-left: 0px
     }
     .icons ion-icon{
-    padding-left: 30px;
+        padding-left: 8px;
     }
     .year {
-    margin-left: 344px;
+    margin-left: 296px;
     }
     .events-box .events-layer {
 transform: translateY(90.7%);
 }
     .form{
-    width: 1200px;
+    width: 1086px;
     top: -7px;
-    left: 51px;
+    left: 57px;
     }
   .form h2{
-    margin-left: 385px;
+        margin-top: -4px;
+    margin-left: 324px;
     }  
      .form h2 img {
     width: 70px;
