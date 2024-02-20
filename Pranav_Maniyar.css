@@ -399,6 +399,9 @@ ul li a{
 }
 @media screen and (max-width: 451px){
     /*mobile*/
+    body{
+        /* background-image: url("bg1.png"); */
+        background-color: rgb(0,0,0,1);}
     .logo{
         position: fixed;
         font-size: 40px;
