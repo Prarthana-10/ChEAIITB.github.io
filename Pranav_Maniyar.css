@@ -1,22 +1,20 @@
 *{
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 body{
-     background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url("plant.jpeg");
-     background-size: cover;
+     background-image: url("bg1.png");
+      background-size: cover;
      background-repeat: no-repeat;
-     background-attachment: fixed;
+    background-attachment: fixed;
  }
 .main{
     width: 100%;
-    /* background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.9)100%),url(plant.jpg); */
+    /* background:url(bg.png); */
     background-position: center;
     background-size: cover;
-    height: 109vh;
+     /* height: 109vh; */ 
 }
-
 header{
     background-color: transparent;
 }
@@ -26,19 +24,12 @@ header{
 }
 .navbar {
     width: 1220px;
-    height: 75px;
+    height: 65px;
     margin: auto;
-    column-gap: 100px;
     background-attachment: fixed;
 }
-.menu{
-    width: 330px;
-    height: 80px;
-    float: left; 
-    }
 .icon{
-    bottom: 0px;
-    width: 69px;
+    width: 89px;
     float: left;
     height: 70px;
 }
@@ -46,14 +37,19 @@ header{
     color: #ff7200;
     font-size: 35px;
     font-family: Arial;
-    padding-left: 20px;
+    padding-left: -80px;
     float: left;
+    margin-left: -70px;
     padding-top: 5px;
-    margin-top: 5px;
-    margin-left:-100px;
+    margin-top: 5px
+}
+.menu{
+    width: 330px;
+    float: left;
+    height: 80px;
 }
 ul{
-    gap: 7.6rem;
+    gap: 7rem;
     float: left;
     display: flex;
     justify-content: left;
@@ -62,7 +58,7 @@ ul{
 ul li{
     list-style: none;
     margin-left: 3px;
-    margin-top: 71px;
+    margin-top: 63px;
     font-size: 16px;
 }
 ul li a{
@@ -71,12 +67,6 @@ ul li a{
     font-family: valera;
     font-weight: bold;
     transition: 0.2s ease-in-out;
-}
-ul #blogs a{
-    color: #ff7200;
-}
-ul li a:hover{
-    color: #ff7200;
 }
 .bar{
     display: block;
@@ -92,20 +82,20 @@ ul li a:hover{
     height: 100px;
     background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%);
     position: relative;
-    left: 0px;
-    bottom: 0px;
-    top: -20px;
+    left: 0;
+    bottom: 0;
+    top: -10px;
     text-align: center;
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
     align-items: center;
-    margin-top: 40px;
-    margin-left: -150px;
+    margin-top: -50px;
+    margin-left: -60px;
 }
 .form h2{
     width: 437px;
-    font-family: sans-serif;
+    font-family: valera;
     text-align: center;
     color: #fff;
     font-size: 26px;
@@ -114,13 +104,13 @@ ul li a:hover{
     margin: 2px;
     padding: 8px;
     align-items: center;
-    margin-left: 525px;
+    margin-left: 558px;
     margin-right: 0;
-    margin-top: 0px;
-    margin-bottom: -40px;
+    margin-top: 10px;
+    padding-left: -10px;
+    margin-bottom: 40px;
 }
 .form input{
-    bottom: 0px;
     width: 240px;
     height: 35px;
     background: transparent;
@@ -317,17 +307,17 @@ ul li a:hover{
 @media screen and (min-width: 830px) and (max-width: 1200px) {
     /* Normal Screen */
 .logo{
-        margin-left: 10px;
+        margin-left: 20px;
     }
-    .menu{
-        margin-left: 98px;
-        margin-top: -8px;
-    }
+    .menu {
+    margin-left: 79px;
+    margin-top: -5px; 
+    }  
     ul{
-        gap: 102px;
+        gap: 80px;
     }
     ul li a{
-        font-size: 20px;
+        font-size: 16px;
     }
     .single-line-text {
    white-space: nowrap; /* Prevents text from wrapping */
@@ -386,17 +376,17 @@ ul li a:hover{
     margin-left: -20px;
     padding-left: 0px;
     }
-    .icons ion-icon{
-    padding-left: 30px;
+        .icons{
+    margin-left: -111px;
+}
+    .form{
+        margin-left: 210px;
+        margin-top: -60px;
     }
-    .form {
-    width: 1200px;
-    margin-top: 80px;
-    left: 34px;
+    .form h2{
+            margin-top: -9px;
+    margin-left: 168px;
     }
-  .form h2{
-    margin-left: 385px;
-    }   
 }
 @media screen and (max-width: 451px){
     /*mobile*/
@@ -531,21 +521,19 @@ ul li a:hover{
     font-size: 60.5px;
     }
     .form {
-    top: 10px;
-    left: 435px;
-    padding:9px;
+    top: -80px;
+    left: 482px;
+    padding:4px;
+    margin-left: -110px;
     }
-
-    .icons ion-icon {
-    width: 50px;
-    font-size: 50px;
-    margin-left: 10px;
-    margin-top: 25px;
+.icons ion-icon {
+    font-size: 80px;
+            margin-left: -9px;
+    margin-top: 15px;
     }
     .form h2 {
-        margin-top: -10px;
         width: 835px;
         font-size: 60px;
-        margin-left: -230px;
+        margin-left: -200px;
     }
 }
