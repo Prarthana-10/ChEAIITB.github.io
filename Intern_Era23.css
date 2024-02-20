@@ -84,6 +84,7 @@ ul li a{
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
+        margin-top: 92px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -346,6 +347,8 @@ events-box .ib{
     /* float: right; */
     margin-left: 169px;
     }
+    .cn{
+            margin-top: 90px;}
   .events h2 {
     margin-left: 327px;
     }
@@ -579,6 +582,7 @@ transform: translateY(90.7%);
     font-size: 60px;
     }
     .cn {
+            margin-top: 315px;
         width: 310px;
         height: 95px;
         font-size: 60px;
@@ -601,7 +605,7 @@ transform: translateY(90.7%);
     }
     .form {
         top: -67px;
-    left: 407px;
+       left: 458px;
     padding:9px;
     }
 
