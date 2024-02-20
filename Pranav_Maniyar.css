@@ -192,11 +192,11 @@ ul li a{
     margin-left: -10px;
 }
 .blog-container img  {
-    height: 257px;
-    width: 280px;
+    height: 266px;
+    width: 363px;
     margin-left: 450px;
     margin-top: 10px;
-    margin-top: 15px;
+    margin-top: 16px;
     margin-bottom: -9px;
 }
 .blog-container .blogs-box{
@@ -337,9 +337,9 @@ ul li a{
     margin-left: 445px;
     }
   .blogs-layer h4 {
-    margin-left: 224px;
+    margin-left: 297px;
     padding-left: 0px;
-    width: 1000px;
+    width: 944px;
     } 
    .blog-container p {
     margin-left: -139px;
@@ -378,7 +378,7 @@ ul li a{
     height: 300px;
     width: 300px;
     margin-left: 420px;
-    margin-top: 20px;
+    margin-top: 13px;
     }
   .blog-container{
     gap: 1.9rem;
@@ -389,12 +389,12 @@ ul li a{
     margin-left: -111px;
 }
     .form{
-        margin-left: 210px;
-        margin-top: -60px;
+        margin-left: 209px;
+        margin-top: 14px;
     }
     .form h2{
-            margin-top: -9px;
-    margin-left: 168px;
+            margin-top: 44px;
+    margin-left: -51px;
     }
 }
 @media screen and (max-width: 451px){
