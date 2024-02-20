@@ -458,28 +458,30 @@ ul li a{
     margin-left: 1050px;
     }
     .blog-container img {
-    height: 550px;
-    width: 550px;
+    height: 530px;
+    width: 569px;
     margin-left: 250px;
     margin-top: 0px;
+    margin-bottom: -21px;
     }
     .blog-container p {
     font-size: 56.7px;
-    margin-left: -160px;
-    margin-right: -261px; 
+margin-left: -180px;
+    margin-right: -246px;
     padding-left: 150px;
     margin-top: 30px;
     }
     .blog-c1 img {
     width: 845px;
-    height: 580px;
+    height: 714px;
     margin-left: 32px;
     margin-top: 100px;
     float: none;
     }
     .blog-c1 p {
     font-size: 56.7px;
-    margin-right: -862px;    margin-left: -190px;    padding-left: 101px;
+margin-right: -749px;
+    margin-left: -201px;padding-left: 101px;
     }
     .blog-c2 p {
     font-size: 56.7px;
@@ -523,26 +525,26 @@ ul li a{
     }
     .blogs-layer h4 {
     font-size: 5.0rem;
-    margin-bottom: 50px;
-    width: 1197px;
-    margin-left: -124px;
+    margin-bottom: 29px;
+    width: 1005px;
+    margin-left: 39px;
 }    .blogs-layer p {
-    font-size: 60.5px;
+    font-size: 68.5px;
     }
     .form {
-    top: -80px;
-    left: 482px;
-    padding:4px;
-    margin-left: -110px;
+    top: -23px;
+    left: 345px;
+    padding: -8px;
+    margin-left: -138px;
     }
 .icons ion-icon {
-    font-size: 80px;
-            margin-left: -9px;
+font-size: 53px;
+    margin-left: 15px;
     margin-top: 15px;
     }
     .form h2 {
-        width: 835px;
-        font-size: 60px;
-        margin-left: -200px;
+        width: 740px;
+    font-size: 57px;
+    margin-left: -200px;
     }
 }
