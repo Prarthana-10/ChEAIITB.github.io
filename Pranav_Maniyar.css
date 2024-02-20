@@ -90,8 +90,11 @@ ul li a{
     border-radius: 10px;
     padding: 25px;
     align-items: center;
-    margin-top: -50px;
-    margin-left: -60px;
+        margin-top: 41px;
+    margin-left: -209px;
+}
+.form h2{
+    margin-left: 540px;
 }
 .form h2{
     width: 437px;
@@ -104,11 +107,14 @@ ul li a{
     margin: 2px;
     padding: 8px;
     align-items: center;
-    margin-left: 558px;
     margin-right: 0;
     margin-top: 10px;
     padding-left: -10px;
     margin-bottom: 40px;
+}
+.form h2 img {
+    width: 70px;
+    height: 50px;
 }
 .form input{
     width: 240px;
@@ -183,12 +189,12 @@ ul li a{
     margin-left: -10px;
 }
 .blog-container img  {
-    height: 250px;
-    width: 250px;
+    height: 257px;
+    width: 280px;
     margin-left: 450px;
     margin-top: 10px;
     margin-top: 15px;
-    margin-bottom: -15px;
+    margin-bottom: -9px;
 }
 .blog-container .blogs-box{
     position:relative;
@@ -236,11 +242,11 @@ ul li a{
    }
 
 .blogs-layer h4{
-    margin-top: 30px;
-    font-size:2.5rem ;
+    margin-top: 6px;
+    font-size: 2.5rem;
     color: #ff7200;
-    margin-bottom: 0px;
-    margin-left: 240px;
+    margin-bottom: 5px;
+    margin-left: 329px;
 }
 .blog-container p{
     margin-top: -10px;
