@@ -4,10 +4,10 @@ padding: 0;
 }
 
 body{
-     background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url("plant.jpeg");
-     background-size: cover;
+     background-image: url("bg1.png");
+      background-size: cover;
      background-repeat: no-repeat;
-     background-attachment: fixed;
+    background-attachment: fixed;
  }
 .main{
     width: 100%;
@@ -270,7 +270,7 @@ ul li a:hover{
     transform:translateY(0);
 }
 .events-layer h4{
-    font-family: 'varela';
+    font-family: gabriola, cursive;
     font-size:1.5rem ;
     color: #ff7200;
     margin-bottom: 0px;
@@ -542,7 +542,7 @@ events-box .ib{
     }
     .events h2 {
     margin-bottom: -25px;
-    margin-left: 225px;
+    margin-left: 292px;
     font-size: 81px;
     margin-top: 2rem;
 }
@@ -582,13 +582,13 @@ events-box .ib{
     font-size: 48px;
     }
     .form {
-    top: -80px;
-    left: 435px;
-    padding:9px;
+    top: -22px;
+    left: 367px;
+    padding: 9px;
     }
 
     .icons ion-icon {
-    width: 70px;
+        width: 88px;
     font-size: 50px;
     margin-left: 10px;
     margin-top: 25px;
@@ -597,6 +597,6 @@ events-box .ib{
         margin-top: -10px;
         width: 835px;
         font-size: 60px;
-        margin-left: -266px;
+margin-left: -216px;
     }
 }
