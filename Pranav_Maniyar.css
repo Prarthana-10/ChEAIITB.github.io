@@ -192,8 +192,8 @@ ul li a{
     margin-left: -10px;
 }
 .blog-container img  {
-    height: 266px;
-    width: 363px;
+        height: 257px;
+    width: 280px;
     margin-left: 450px;
     margin-top: 10px;
     margin-top: 16px;
@@ -262,10 +262,10 @@ ul li a{
 }
 .blog-c1 img{
     float: right;
-    width: 340px;
-    height: 260px;
+    width: 363px;
+    height: 266px;
     margin-left: 20px;
-    margin-top: -15px;
+    margin-top: 16px;
     margin-right: 130px;
 }
 .blog-c1 p{
@@ -323,7 +323,7 @@ ul li a{
     margin-top: -5px; 
     }  
     ul{
-        gap: 80px;
+        gap: 126px;
     }
     ul li a{
         font-size: 16px;
