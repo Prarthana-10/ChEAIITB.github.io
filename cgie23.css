@@ -349,10 +349,10 @@ events-box .ib{
         font-size: 20px;
     }
   .events h2 {
-    margin-left: 379px;
+        margin-left: 300px;
     }
     .heading h2{
-    margin-left: 408px;
+margin-left: 329px;
     }
     .heading h3{
     margin-left: -100px;
@@ -362,18 +362,19 @@ events-box .ib{
     margin-top: 100px;}
   .event-container{
     gap: 1.9rem;
-    margin-left: -85px;  
+       margin-left: 311px;
     padding-left: 0px;
     }
     .icons ion-icon{
     padding-left: 30px;
     }
     .form{
-    width: 1200px;
-    top: -7px;
-    left: 51px;    }
+width: 1204px;
+    top: -16px;
+    left: 3px;}
   .form h2{
     margin-left: 385px;
+       margin-top: -4px;
     }   
 }
 @media screen and (min-width: 601px) and (max-width: 830px) {
