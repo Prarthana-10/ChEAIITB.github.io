@@ -96,8 +96,11 @@ ul li a{
 .form h2{
     margin-left: 540px;
 }
+.icons{
+    margin-bottom: -56px;
+}
 .form h2{
-    width: 437px;
+    width: 575px;
     font-family: valera;
     text-align: center;
     color: #fff;
