@@ -538,8 +538,8 @@ transform: translateY(90.7%);
     }
     .event-container {
     width: 100px;
-    top: 20px;
-    left: -66px;
+        top: -1px;
+    left: -542px;
     grid-template-columns: repeat(1, 1fr);
     gap: 2.5rem;
     }
@@ -554,7 +554,7 @@ transform: translateY(90.7%);
         margin-bottom: 70px;
     }
     .events-box .events-layer {
-        transform: translateY(90.7%);    }
+        transform: translateY(88.7%);    }
     .events-layer h4 {
         font-size: 5.1rem;
         margin-bottom: 50px;
@@ -593,16 +593,17 @@ transform: translateY(90.7%);
         display: inline-block;
     }
     .form {
-    top: 13px;
-    left: 435px;
+        top: -67px;
+    left: 407px;
     padding:9px;
     }
 
     .icons ion-icon {
-    width: 70px;
-    font-size: 50px;
-    margin-left: -8px;
+       width: 175px;
+    font-size: 59px;
+    margin-left: -77px;
     margin-top: 25px;
+            padding-left: 0px;
     }
     .form h2 {
         margin-top: -10px;
