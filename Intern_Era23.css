@@ -266,6 +266,7 @@ ul li a{
 .events-layer h4{
     font-family: gabriola, cursive;
     font-size:1.5rem ;
+        margin-top: -8px;
     color: #ff7200;
     margin-bottom: 0px;
 }
