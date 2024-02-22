@@ -279,6 +279,9 @@ ul li a{
     margin-left: -90px;
     width: calc(100% - (width_of_your_image + 10px));
 }
+.blog-c1 b{
+    color: #ff7200;
+}
 .blog-c2 p{
     margin-bottom: -15px;
     padding-left: 500px;
@@ -288,6 +291,9 @@ ul li a{
     margin-top: 40px;
     margin-left: -590px;
     margin-right: 105px;
+}
+.blog-c2 b{
+    color: #ff7200;
 }
 .btn{
     margin-top: 100px;
