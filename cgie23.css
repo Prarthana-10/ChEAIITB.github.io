@@ -560,7 +560,7 @@ width: 1204px;
     margin-bottom: 28px;
     margin-left: 229px;
     font-size: 81px;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
     .event-container .events-box {
         width: 1000px;
@@ -590,8 +590,9 @@ width: 1204px;
     margin-left: 260px;
     width: 771px;
     margin-right: -1000px;
-    margin-bottom: -22px;
-    margin-top: 25px;    }
+    margin-bottom: -2px;
+    margin-top: 46px;
+}
     .cn {
         width: 310px;
         height: 95px;
@@ -608,7 +609,7 @@ width: 1204px;
         display: inline-block;
     }
     .form {
-    top: -22px;
+        top: -4px;
         left: 408px;
     padding: 9px;
     }
