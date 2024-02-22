@@ -461,18 +461,9 @@ events-box .ib{
 }
 @media screen and (max-width: 451px){
     /*mobile*/
-       body {
-        background-image: none;
-     background-color: rgb(0, 0, 0, 1);
-/*         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center; */
-        margin: 0; /* Remove default margin to ensure full coverage */
-        display: flex;
-        flex-direction: column;
-        min-height: 200vh;
-         height: 100%;
-    }
+       body{
+        /* background-image: url("bg1.png"); */
+        background-color: rgb(0,0,0,1);}
     .logo{
         position: fixed;
         font-size: 40px;
