@@ -354,7 +354,7 @@ events-box .ib{
         font-size: 20px;
     }
   .events h2 {
-        margin-left: 300px;
+margin-left: 309px;
     }
     .heading h2{
 margin-left: 329px;
@@ -364,7 +364,7 @@ margin-left: 329px;
     margin-right: -252px;
    }
        .year {
-    margin-left: 344px;
+        margin-left: 276px;
     }
    .cn {
     margin-top: 100px;}
@@ -557,8 +557,8 @@ width: 1204px;
     gap: 2.5rem;
     }
     .events h2 {
-    margin-bottom: -25px;
-    margin-left: 292px;
+    margin-bottom: 28px;
+    margin-left: 229px;
     font-size: 81px;
     margin-top: 2rem;
 }
@@ -587,12 +587,11 @@ width: 1204px;
     font-size: 63px;
     }
        .year {
-        margin-left: 261px;
-            width: 771px;
-            margin-right: -1000px;
-    margin-bottom: 77px;
-    margin-top: 25px;
-    }
+    margin-left: 260px;
+    width: 771px;
+    margin-right: -1000px;
+    margin-bottom: -22px;
+    margin-top: 25px;    }
     .cn {
         width: 310px;
         height: 95px;
@@ -610,16 +609,16 @@ width: 1204px;
     }
     .form {
     top: -22px;
-    left: 367px;
+        left: 408px;
     padding: 9px;
     }
 
     .icons ion-icon {
     width: 88px;
     font-size: 49px;
-    margin-left: 7px;
+    margin-left: -21px;
     margin-top: 25px;
-             padding-left: 0px;
+    padding-left: 0px;
     }
     .form h2 {
         margin-top: -10px;
