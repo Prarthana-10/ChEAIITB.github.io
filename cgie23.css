@@ -282,6 +282,11 @@ ul li a:hover{
     color: #ff7200;
     margin-bottom: 0px;
 }
+.year{
+    margin-left: 410px;
+    margin-bottom: 17px;
+    margin-top: 35px;
+}
 .cn_publications{
     width: 110px;
     height: 32px;
@@ -358,6 +363,9 @@ margin-left: 329px;
     margin-left: -100px;
     margin-right: -252px;
    }
+       .year {
+    margin-left: 344px;
+    }
    .cn {
     margin-top: 100px;}
   .event-container{
@@ -578,6 +586,13 @@ width: 1204px;
     .events-layer p {
     font-size: 63px;
     }
+       .year {
+        margin-left: 261px;
+            width: 771px;
+            margin-right: -1000px;
+    margin-bottom: 77px;
+    margin-top: 25px;
+    }
     .cn {
         width: 310px;
         height: 95px;
@@ -589,6 +604,9 @@ width: 1204px;
     height: 60px;
     margin-left: 5px;
     font-size: 48px;
+    }
+     .year .cn_publications{
+        display: inline-block;
     }
     .form {
     top: -22px;
