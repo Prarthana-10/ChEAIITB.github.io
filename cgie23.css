@@ -120,7 +120,7 @@ ul li a:hover{
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
-             margin-left: 34px;
+              margin-left: -1px;
     align-items: center;
     margin-top: 30px;
 }
@@ -135,7 +135,7 @@ ul li a:hover{
     margin: 2px;
     padding: 8px;
     align-items: center;
-    margin-left: 505px;
+    margin-left: 540px;
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: 40px;
@@ -234,7 +234,7 @@ ul li a:hover{
     align-items: center;
     gap: 2.9rem;
     padding-left: -20px;
-    margin-left: 292px ;
+       margin-left: 141px;
 }
 .event-container .events-box{
     position:relative;
@@ -370,7 +370,7 @@ margin-left: 329px;
     margin-top: 100px;}
   .event-container{
     gap: 1.9rem;
-       margin-left: 167px;
+         margin-left: 23px;
     padding-left: 0px;
     }
     .icons ion-icon{
@@ -379,7 +379,7 @@ margin-left: 329px;
     .form{
 width: 1204px;
     top: -16px;
-    left: 3px;}
+    left: -25px;}
   .form h2{
     margin-left: 385px;
        margin-top: -4px;
