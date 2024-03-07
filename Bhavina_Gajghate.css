@@ -500,11 +500,11 @@ margin-left: -180px;
     padding-left: 150px;
     margin-top: 30px;
     }
-    .blog-c1 img {
-    width: 845px;
-    height: 714px;
-    margin-left: 32px;
-    margin-top: 100px;
+.blog-c1 img {
+    width: 780px;
+    height: 594px;
+    margin-left: 48px;
+    margin-top: 80px;
     float: none;
     }
     .blog-c1 p {
@@ -518,11 +518,12 @@ margin-left: -180px;
     margin-right: -778px;
         padding-left: 101px;
     }
-    .blog-c3 img {
-    height: 480px;
-    width: 850px;
-    margin-left: 30px;
-    margin-top: 60px;
+    .blog-c2 img {
+    float: left;
+    width: 395px;
+    margin-left: -93px;
+    margin-right: 16px;
+    margin-top: 14px;
     }
     .blog-c3 p {
     font-size: 56.7px;
@@ -556,8 +557,9 @@ margin-left: -180px;
     .blogs-layer h4 {
     font-size: 5.0rem;
     margin-bottom: 29px;
-    width: 1005px;
-        margin-left: -43px;
+        width: 956px;
+    margin-left: 74px;
+        margin-top: -41px;
 }    .blogs-layer p {
     font-size: 68.5px;
     }
