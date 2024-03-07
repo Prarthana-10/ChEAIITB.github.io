@@ -120,7 +120,7 @@ ul li a:hover{
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
-              margin-left: -1px;
+              margin-left: -14px;
     align-items: center;
     margin-top: 30px;
 }
@@ -234,7 +234,7 @@ ul li a:hover{
     align-items: center;
     gap: 2.9rem;
     padding-left: -20px;
-       margin-left: 141px;
+           margin-left: -15px;
 }
 .event-container .events-box{
     position:relative;
@@ -370,7 +370,7 @@ margin-left: 329px;
     margin-top: 100px;}
   .event-container{
     gap: 1.9rem;
-         margin-left: 23px;
+    margin-left: -126px;
     padding-left: 0px;
     }
     .icons ion-icon{
@@ -379,7 +379,7 @@ margin-left: 329px;
     .form{
 width: 1204px;
     top: -16px;
-    left: -25px;}
+    left: 6px;}
   .form h2{
     margin-left: 385px;
        margin-top: -4px;
@@ -555,13 +555,13 @@ width: 1204px;
     .event-container {
     width: 100px;
     top: 58px;
-left: -362px;
+    left: -62px;
     grid-template-columns: repeat(1, 1fr);
     gap: 2.5rem;
     }
     .events h2 {
     margin-bottom: 28px;
-    margin-left: 229px;
+    margin-left: 260px;
     font-size: 81px;
     margin-top: 4rem;
 }
@@ -590,8 +590,8 @@ left: -362px;
     font-size: 63px;
     }
        .year {
-    margin-left: 260px;
-    width: 771px;
+        margin-left: 290px;
+    width: 726px;
     margin-right: -1000px;
     margin-bottom: -2px;
     margin-top: 46px;
@@ -613,7 +613,7 @@ left: -362px;
     }
     .form {
         top: -4px;
-        left: 408px;
+        left: 449px;
     padding: 9px;
     }
 
