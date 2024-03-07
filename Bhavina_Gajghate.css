@@ -90,7 +90,7 @@ ul li a{
     border-radius: 10px;
     padding: 25px;
     align-items: center;
-        margin-top: 41px;
+    margin-top: 15px;
     margin-left: -209px;
 }
 .form h2{
@@ -249,7 +249,7 @@ ul li a{
     font-size: 2.5rem;
     color: #ff7200;
     margin-bottom: 5px;
-    margin-left: 329px;
+     margin-left: 375px;
 }
 .blog-container p{
     margin-top: -10px;
@@ -268,7 +268,7 @@ ul li a{
     width: 363px;
     height: 266px;
     margin-left: 20px;
-    margin-top: 16px;
+    margin-top: 68px;
     margin-right: 130px;
 }
 .blog-c1 p{
@@ -283,6 +283,11 @@ ul li a{
 .blog-c1 b{
     color: #ff7200;
 }
+.blog-c2 img{
+    float: left;
+    margin-left: -93px;
+    margin-right: 14px;
+}
 .blog-c2 p{
     margin-bottom: -15px;
     padding-left: 500px;
@@ -296,9 +301,8 @@ ul li a{
 .blog-c2 b{
     color: #ff7200;
 }
-.btn{
-    margin-top: 100px;
-    margin-left: 380px;
+.btn{ margin-top: 56px;
+    margin-left: 414px;
 }
 .cn_publications{
     width: 110px;
