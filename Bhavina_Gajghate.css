@@ -351,9 +351,9 @@ ul li a{
     margin-left: 445px;
     }
   .blogs-layer h4 {
-    margin-left: 297px;
+        margin-left: 329px;
     padding-left: 0px;
-    width: 944px;
+    width: 913px;
     } 
    .blog-container p {
     margin-left: -139px;
@@ -362,8 +362,15 @@ ul li a{
    .blog-c1 img {
     width: 417px;
     height: 284px;
-    margin-right: -360px;
+        margin-right: -370px;
+       margin-top: 20px;
 }    
+    .blog-c2 img {
+    float: left;
+    margin-left: -159px;
+    margin-right: 14px;
+    margin-top: 17px;
+}
     .blog-c1 p {
     margin-left: -157px;
         margin-right: -374px;
@@ -402,7 +409,7 @@ ul li a{
     }
 .btn {
     margin-top: 59px;
-    margin-left: 293px;
+margin-left: 319px;
 }
         .icons{
     margin-left: -111px;
