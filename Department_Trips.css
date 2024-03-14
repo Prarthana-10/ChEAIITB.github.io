@@ -624,6 +624,9 @@ ul li a:hover{
     .events-layer p {
    font-size: 47px;
     }
+    .events-box .events-layer {
+            transform: translateY(90%);
+    }
     .cn{
         font-size: 54px;
         width: 300px;
